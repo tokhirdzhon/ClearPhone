@@ -1,0 +1,22 @@
+# Build output
+app/build/
+*.apk.idsig
+*.idsig
+
+# Local Android toolchain (large)
+tools/
+platform-tools/
+
+# Signing keys
+*.jks
+*.keystore
+
+# Local notes with device IDs and personal data
+PROJECT_NOTES.md
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
